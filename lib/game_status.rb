@@ -42,7 +42,7 @@ def over? (board)
 end
 
 def winner(board)
-  if draw?(board) == false
+  if won?(board)!= false
     y = won?(board)
     if y[0] == "X" 
       return "X"
