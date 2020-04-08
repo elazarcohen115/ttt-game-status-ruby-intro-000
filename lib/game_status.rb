@@ -24,3 +24,11 @@ def full? (board)
     square == "X" || square == "O"
   end
 end
+
+def draw? (board)
+  if full? == true && won? == false
+    return true
+  else
+    return false
+  end
+end
