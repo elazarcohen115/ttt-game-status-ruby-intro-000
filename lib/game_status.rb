@@ -42,7 +42,7 @@ def over? (board)
 end
 
 def winner?(board)
-  if won?(board) == false
+  if draw?(board) == true
     return nil
   end
 end
