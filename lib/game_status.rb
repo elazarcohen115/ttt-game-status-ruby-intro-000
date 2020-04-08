@@ -32,3 +32,11 @@ def draw? (board)
     return false
   end
 end
+
+def over? (board)
+  if draw?(board) == true || full?(board) == true || draw?(board) == true
+    return true
+  else
+    return false
+  end
+end
