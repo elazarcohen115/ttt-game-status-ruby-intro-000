@@ -25,10 +25,3 @@ def full? (board)
   end
 end
 
-def draw? (board)
-  if full? == true && won? == false
-    return true
-  else
-    return false
-  end
-end
