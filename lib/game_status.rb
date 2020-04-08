@@ -21,5 +21,5 @@ end
 
 def full? (board)
   board.all? do |square|
-    
+    square == 
 end
