@@ -10,4 +10,5 @@ def won?(board)
    win_1 = win_combination[0]
    win_2 = win_combination[1]
    win_3 = win_combination[2]
-   if 
+   if board[win_1] == "X" && board[win_2] == "X" && board[win_3] == "X"
+     return 
