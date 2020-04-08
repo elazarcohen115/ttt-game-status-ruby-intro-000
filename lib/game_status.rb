@@ -40,3 +40,14 @@ def over? (board)
     return false
   end
 end
+
+def winner?(board)
+  if won? != false
+    if win_combination[0] == "X"
+      return "X"
+    else
+      return "O"
+    end
+  end
+return nil
+end
