@@ -20,4 +20,4 @@ def won?(board)
 end
 
 def full? (board)
-  
+  more_room = false
