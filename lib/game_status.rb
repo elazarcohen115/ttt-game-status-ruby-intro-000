@@ -7,4 +7,7 @@ WIN_COMBINATIONS = [[0,1,2], [3,4,5], [6,7,8], [0,4,8], [2,4,6], [0,3,6], [1,4,7
 
 def won?(board)
   for each win_combination in WIN_COMBINATIONS
-   board.each do ||
+   win_1 = win_combination[0]
+   win_2 = win_combination[1]
+   win_3 = win_combination[2]
+   if 
