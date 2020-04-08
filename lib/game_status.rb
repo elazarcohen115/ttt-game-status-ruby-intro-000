@@ -42,9 +42,9 @@ def over? (board)
 end
 
 def winner(board)
-  if won?(board)!= false
-    x = won?(board)
-    if x[0] == "X" 
+  if draw?(board) == false
+    y = won?(board)
+    if y[0] == "X" 
       return "X"
     else
       return "O"
