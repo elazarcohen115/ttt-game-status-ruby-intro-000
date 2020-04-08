@@ -43,6 +43,7 @@ end
 
 def winner?(board)
   if won? != false
+    x = won?(board)
     if won?(board) == "X"
       return "X"
     else
