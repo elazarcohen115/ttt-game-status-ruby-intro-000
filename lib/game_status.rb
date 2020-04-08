@@ -21,4 +21,10 @@ end
 
 def full? (board)
   board.each do |space|
-    if space == "" || space == " " 
+    if space == "" || space == " " || space == nil
+      return false
+    else 
+      return true
+    end
+  end
+end
